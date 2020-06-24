@@ -1,0 +1,57 @@
+/* ---------------------------
+General
+--------------------------- */
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo_gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.thumbnail {
+  padding: 36px;
+}
+
+/* ---------------------------
+Search Bar
+--------------------------- */
+.search_bar {
+  padding-top: 24px;
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type=text] {
+  padding: 6px;
+  font-size: 16px;
+  border: 1px solid lightgrey;
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* ---------------------------
+Lightbox Styling
+--------------------------- */
+.lb-caption  {
+  font-family: sans-serif;
+}
+
+.lb-details {
+  margin: 12px 0;
+}
+
+.lb-nav a.lb-prev {
+  opacity: 1;
+}
+
+.lb-nav a.lb-next {
+  opacity: 1;
+}
+
